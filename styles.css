@@ -1,0 +1,74 @@
+
+/*Para ver elementos transparentes*/
+
+.card,
+.container,
+section {
+  background-color: transparent !important;
+}
+
+#Sobre-nosotros{
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30xp;
+  border-radius: 10px;
+}
+
+
+/* El Encabezado */
+header {
+  background-color: #4CAF50;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #e0ffe0 !important;
+}
+
+/* El Carrusel */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Títulos de tarjetas */
+.card-title {
+  color: #2e4d2e;
+}
+
+/* Sección de productos */
+#productos h2 {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+/* Sección de contacto */
+#contacto h2 {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+#contacto label {
+  font-weight: bold;
+}
+
+/* Botón enviar */
+.btn-success {
+  background-color: #4CAF50;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  background-color: #2e2e2e;
+  color: white;
+}
